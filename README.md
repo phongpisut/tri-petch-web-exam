@@ -15,5 +15,5 @@
  yarn dev or npm run dev or pnmp run dev
 
 ---
-and then you can access with http://localhost:5173/
+http://localhost:5173/
 ```
