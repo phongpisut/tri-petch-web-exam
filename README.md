@@ -3,14 +3,17 @@
 ## Libraries
 | Name  | Usage | 
 | :-------------------- | :--------------------: | 
-| Content Left          |     Content Center     | 
-| Content Left          |     Content Center     | 
-| _Italic_              |        **Bold**        | 
-| <ins>Underlined</ins> |     Content Center     | 
+| styled-components          |     organize styled components     | 
+| tailwindcss          |    CSS and media queries    | 
+| react-scroll-parallax              |        parallax effect for images      | 
+| react-responsive-carousel |     responsive carousel     | 
 
 ## Start Project
 ```
  cd tri-petch-web-exam
  yarn or npm install or pnpm install
  yarn dev or npm run dev or pnmp run dev
+
+---
+and then you can access with http://localhost:5173/
 ```
