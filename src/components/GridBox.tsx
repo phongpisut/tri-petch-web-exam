@@ -19,4 +19,9 @@ const BasketBallImg = styled.img.attrs(() => ({
     "mx-auto h-auto top-5 right-0 w-[60%] tablet:absolute tablet:-right-[calc(26rem_-_20vw)] tablet:w-[500px] tablet:min-w-[550px] desktop:right-[8vw] tablet:top-8",
 }))``;
 
-export { Col, MainGrid, FootballImg, BasketBallImg };
+const TopicBox = styled.div.attrs(() => ({
+  className:
+    "hidden tablet:grid mb-5 col-span-1 tablet:col-span-2 desktop:col-span-1 pl-2",
+}))``;
+
+export { Col, MainGrid, FootballImg, BasketBallImg, TopicBox };

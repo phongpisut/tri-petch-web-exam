@@ -5,7 +5,7 @@ const Title = styled.h1.attrs(() => ({
 }))``;
 
 const TitleMobile = styled.h1.attrs(() => ({
-  className: "text-6xl text-gray-200 flex tablet:hidden",
+  className: "text-5xl text-gray-200 flex tablet:hidden",
 }))``;
 
 export { Title, TitleMobile };

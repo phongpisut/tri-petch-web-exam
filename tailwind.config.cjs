@@ -1,7 +1,14 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: [
+          "Roboto",
+          ...require("tailwindcss/defaultTheme").fontFamily.sans,
+        ],
+      },
+    },
     screens: {
       tablet: "640px",
       // => @media (min-width: 640px) { ... }
@@ -13,5 +20,5 @@ module.exports = {
       // => @media (min-width: 1280px) { ... }
     },
   },
-  plugins: [require("@tailwindcss/typography"), require("daisyui")],
+  plugins: [],
 };
