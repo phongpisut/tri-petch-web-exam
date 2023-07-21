@@ -15,15 +15,15 @@ import data from "@/assets/data/data.json";
 
 function App() {
   const { ref: footballRef } = useParallax<HTMLImageElement>({
-    translateX: [0, 20],
+    translateX: [0, 25],
   });
   const { ref: basketballRef } = useParallax<HTMLImageElement>({
-    translateX: [0, -10],
+    translateX: [0, -30],
   });
 
-  const color1 = ["bg-white", "bg-gray-200", "bg-violet-700"];
-  const color2 = ["bg-white", "bg-gray-200", "bg-blue-950"];
-  const invertColor = ["bg-violet-700", "bg-blue-950"];
+  const color1 = ["bg-white", "bg-gray-normal", "bg-violet-dark"];
+  const color2 = ["bg-white", "bg-gray-normal", "bg-blue-dark"];
+  const invertColor = ["bg-violet-dark", "bg-blue-dark"];
 
   const topicContent = (x: any, i: number, color: string[]) => (
     <>
@@ -31,18 +31,18 @@ function App() {
         <div>
           <p
             className={`${
-              color[i] === "bg-blue-950" ? "text-violet-700" : "text-black"
+              color[i] === "bg-blue-dark" ? "text-violet-text" : "text-black"
             } text-md mr-2 rounded-md`}
           >
             {`${i + 1}`.padStart(2, "0")}
           </p>
           <div
             className={`h-1 w-2/3 ${
-              invertColor.includes(color[i]) ? "bg-white" : "bg-violet-700"
+              invertColor.includes(color[i]) ? "bg-white" : "bg-violet-line"
             } rounded-md`}
           />
         </div>
-        <p className="text-gray-400 text-3xl font-medium">{x?.headline}</p>
+        <p className="text-gray-text text-3xl font-medium">{x?.headline}</p>
       </div>
       <p className={`px-5 ${invertColor.includes(color[i]) && "text-white"}`}>
         {x?.desc}

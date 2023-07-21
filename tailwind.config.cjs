@@ -8,6 +8,23 @@ module.exports = {
           ...require("tailwindcss/defaultTheme").fontFamily.sans,
         ],
       },
+      colors: {
+        violet: {
+          light: "#8F6BE8",
+          text: "#8765DD",
+          dark: "#5E3DB3",
+          line: "#603EBE",
+        },
+        gray: {
+          text: "#C2C2C2",
+          "text-light": "#E7E7E7",
+          normal: "#F5F4F9",
+          line: "#D8D8D8",
+        },
+        blue: {
+          dark: "#090C35",
+        },
+      },
     },
     screens: {
       tablet: "640px",

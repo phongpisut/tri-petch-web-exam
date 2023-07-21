@@ -23,7 +23,7 @@ export default function TopicCarousel({ children }: props) {
       renderIndicator={(onClickHandler, isSelected) => (
         <div
           className={`ease-in-out delay-150 transition-colors w-3 h-3 rounded-full ${
-            isSelected ? "bg-violet-700" : "bg-gray-400"
+            isSelected ? "bg-violet-line" : "bg-gray-line"
           } inline-block mx-1`}
           onClick={onClickHandler}
         />
