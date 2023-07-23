@@ -7,5 +7,6 @@ export default defineConfig({
   plugins: [react(),tsconfigPaths()],
   server:{
     host:true
-  }
+  },
+  base: "/tri-petch-web-exam/",
 })
