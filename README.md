@@ -30,3 +30,4 @@
 ---
 http://localhost:5173/
 ```
+View at GitHub Page: https://phongpisut.github.io/tri-petch-web-exam/
